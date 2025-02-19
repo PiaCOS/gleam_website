@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(198, 198, 198);
+    font-family: "Space Mono";
+    font-size: 14px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.Navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.Navbar > div {
+    flex: 1; 
+    min-width: 300px;
+}
+
+.box {
+    width: 400px;
+    height: 360px;
+    font-family: "Space Mono";
+    font-size: 14px;
+    /* color: rgb(123, 123, 123); */
+    color: rgb(153, 87, 22);
+    overflow: hidden;
+    white-space: pre-line;
+    text-align: center;
+}
+
+/* Adjust padding and margins for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    nav {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 3%;
+    }
+
+    .main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .intro {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    section {
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 600px) {
+    .Navbar {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .box {
+        margin-top: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .main {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .intro {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    nav {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+
+    section {
+        margin-bottom: 1.5%;
+    }
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    color: rgb(198, 198, 198);
+    font-family: "Space Mono";
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+}
+
+section {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+strong {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+hr {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.horizontal {
+    display: inline-block;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.intro {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.who-am-i {
+    color: white;
+}
+
+/* Links */
+a:link {
+    color: rgb(250, 137, 9);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(250, 137, 9);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(250, 101, 9);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
